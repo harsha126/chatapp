@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  /* background-image: url("C://Users/DELL/Desktop/trees.jpg"); */
+  background-image: url("D://my images/harsha4.jpg");
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.login-title{
+  font-weight: 800;
+  color:#0a0ef3;
+  margin-top:100px;
+}
+
+.login-input{
+  border:none;
+  background-color: #F0F0FA;
+  margin:15px;
+  padding:10px;
+  border-radius: 8px;
+  width:90%;
+  box-shadow: 2px 2px 8px 0 rgb(0 0 0 / 12%) inset;
+}
+
+.login-button{
+  background-color: #0a0ef3;
+  color:white;
+  border: none;
+  width:50%;
+  padding: 8px;
+  margin:10px;
+  border-radius: 8px;
+}
+
+.lcontainer{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width:330px;
+  height:320px;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  background-color: #A7C0C7;
+  border-radius: 10px;
+}
+.Logincontainer{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width : 100%;
+  /* border: solid 2px; */
+  box-shadow: 0 10px 26px 0 rgb(0 0 0 / 20%);
+  border-radius:8px;
+  height:100%;
+  /* background-color: #0a0ef3; */
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
